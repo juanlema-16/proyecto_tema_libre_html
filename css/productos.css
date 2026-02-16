@@ -1,0 +1,107 @@
+/* Contenedor Raíz - Protege tus otros estilos */
+.productos-fuego-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: 'Arial Black', sans-serif;
+    background-color: #fff;
+}
+
+.productos-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.productos-header h1 {
+    color: #e67e22;
+    font-size: 3rem;
+    margin: 0;
+}
+
+/* Grid de Productos */
+.galeria-productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+/* Tarjeta de Producto */
+.item-producto {
+    background: #ffffff;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    overflow: hidden;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+}
+
+.item-producto:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transform: scale(1.02);
+}
+
+/* Espacio para la foto */
+.imagen-placeholder {
+    height: 200px;
+    background: #f4f4f4;
+    display: flex;
+    padding: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-producto {
+    padding: 20px;
+    text-align: left;
+}
+
+.info-producto h3 {
+    margin: 0 0 10px 0;
+    color: #333;
+}
+
+.info-producto p {
+    font-family: Arial, sans-serif;
+    color: #666;
+    font-size: 0.9rem;
+    height: 40px; /* Alinea los textos */
+}
+
+.precio-tag {
+    display: block;
+    font-size: 1.5rem;
+    color: #27ae60;
+    margin: 15px 0;
+}
+
+.btn-agregar {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-agregar:hover {
+    background-color: #e67e22;
+}
+
+/* Footer con botón atrás */
+.productos-footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.btn-regresar {
+    color: #666;
+    text-decoration: underline;
+    font-size: 1rem;
+}
+img{
+    width: 200px;
+    height: 200px;
+}

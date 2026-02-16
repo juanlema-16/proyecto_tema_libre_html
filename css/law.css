@@ -1,0 +1,89 @@
+body {
+    background-color: #000;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    max-width: 400px;
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    overflow: hidden;
+    padding: 20px;
+}
+
+h1 {
+    color: #e22717;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.descripcion {
+    text-align: center;
+    color: #000;
+    font-size: 0.9em;
+    margin-bottom: 20px;
+}
+
+.adiciones h2 {
+    font-size: 1.2em;
+    border-bottom: 2px solid #e22717;
+    padding-bottom: 5px;
+}
+
+.opcion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.precio {
+    font-weight: bold;
+    color: #27ae60;
+}
+
+.total-seccion {
+    margin-top: 20px;
+    font-size: 1.4em;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botones {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.btn-volver, .btn-ordenar {
+    flex: 1;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+    border: none;
+}
+
+.btn-volver {
+    background: #e22717;
+    color: #000;
+}
+
+.btn-ordenar {
+    background:#e22717;
+    color: #000;
+    cursor: pointer;
+}
+
+.btn-ordenar:hover {
+    background: #ecf0f1;
+}
